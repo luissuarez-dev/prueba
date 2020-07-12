@@ -1,0 +1,52 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="532" Width="332" Icon="Accenture-Annual-Report-2017-cover.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="1" Grid.Column="0" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="BotAc" Click="BotAc_Click">AC</Button>
+        <Button Grid.Row="1" Grid.Column="1" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="BotSi" Click="BotSi_Click">+/-</Button>
+        <Button Grid.Row="1" Grid.Column="2" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="Botpr" Click="Botpr_Click">%</Button>
+        <Button Grid.Row="1" Grid.Column="3" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" Click="Button_Click">÷</Button>
+
+        <Button Grid.Row="2" Grid.Column="0" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot7" Click="Bot7_Click">7</Button>
+        <Button Grid.Row="2" Grid.Column="1" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot8" Click="Bot8_Click">8</Button>
+        <Button Grid.Row="2" Grid.Column="2" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot9" Click="Bot9_Click" RenderTransformOrigin="1,0">9</Button>
+        <Button Grid.Row="2" Grid.Column="3" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="Botx" Click="Botx_Click">x</Button>
+
+        <Button Grid.Row="3" Grid.Column="0" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot4" Click="Bot4_Click">4</Button>
+        <Button Grid.Row="3" Grid.Column="1" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot5" Click="Bot5_Click">5</Button>
+        <Button Grid.Row="3" Grid.Column="2" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot6" Click="Bot6_Click">6</Button>
+        <Button Grid.Row="3" Grid.Column="3" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="Botres" Click="Botres_Click">-</Button>
+
+        <Button Grid.Row="4" Grid.Column="0" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot1" Click="Bot1_Click">1</Button>
+        <Button Grid.Row="4" Grid.Column="1" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot2" Click="Bot2_Click">2</Button>
+        <Button Grid.Row="4" Grid.Column="2" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot3" Click="Bot3_Click">3</Button>
+        <Button Grid.Row="4" Grid.Column="3" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="Botsum" Click="Botsum_Click">+</Button>
+
+        <Button Grid.Row="5" Grid.ColumnSpan="2" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Bot0" Click="Bot0_Click">0</Button>
+        <Button Grid.Row="5" Grid.Column="2" FontSize="60" HorizontalContentAlignment="Center" Background="Gray" BorderThickness="1" x:Name="Botpun" Click="Botpun_Click_1">.</Button>
+        <Button Grid.Row="5" Grid.Column="3" Foreground="White" FontSize="60" HorizontalContentAlignment="Center" Background="#FFF7AB4E" BorderThickness="1" x:Name="Botigu" Click="Botigu_Click">=</Button>
+
+        <TextBox IsReadOnly="True" Grid.Row="0" Grid.ColumnSpan="4" FontSize="66" TextAlignment="Right" x:Name="Result">0</TextBox>
+        <TextBox IsReadOnly="True" Grid.Row="0" FontSize="15" TextAlignment="Left" x:Name="Texto" Width="45" Height="35" Margin="0,44,36.333,5" BorderBrush="Transparent">!</TextBox>
+    </Grid>
+</Window>

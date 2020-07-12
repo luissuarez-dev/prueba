@@ -1,0 +1,15 @@
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\bin\Release\Calculadora.exe.config
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\bin\Release\Calculadora.exe
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\bin\Release\Calculadora.pdb
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.csprojAssemblyReference.cache
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\MainWindow.g.cs
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\App.g.cs
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.cache
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.lref
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\MainWindow.baml
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.g.resources
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.Properties.Resources.resources
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.csproj.GenerateResource.cache
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.exe
+C:\Users\luis.suarez\source\repos\Calculadora\Calculadora\obj\Release\Calculadora.pdb
